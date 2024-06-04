@@ -1,3 +1,4 @@
+#Este código solo tiene los comandos para scanear un archivo .csv
 censo_puebla <- readr::read_csv("./21_CensoPoblacionVivienda2020.csv")
 censo_puebla
 str(censo_puebla)
